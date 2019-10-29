@@ -14,22 +14,5 @@ namespace Pitstop.CustomerManagementAPI.Model
         public string City { get; set; }
         public string TelephoneNumber { get; set; }
         public string EmailAddress { get; set; }
-
-        // v2 functionality:
-        // public int? LoyaltyLevel
-        // {
-        //     get
-        //     {
-        //         switch (City.ToLowerInvariant())
-        //         {
-        //             case "amsterdam":
-        //                 return 3;
-        //             case "den haag":
-        //                 return 2;
-        //             default:
-        //                 return 1;
-        //         }
-        //     }
-        // }
     }
 }
